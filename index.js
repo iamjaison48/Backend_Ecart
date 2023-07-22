@@ -8,7 +8,7 @@ const express = require('express');
 const cors = require('cors');
 
 //8 import db connection
-require('./DB/connection')
+require('./DB/Connection')
 
 //import router
 const router = require('./Routes/router')
